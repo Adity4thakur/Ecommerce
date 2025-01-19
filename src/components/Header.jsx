@@ -38,7 +38,7 @@ export default function Header() {
                 src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=500"
                 className="h-8 w-auto"
               /> */}
-              <h1 className='text-white'>ADi this side</h1>
+              <h1 className='text-white'>ONEPLACE</h1>
             </div>
             <div className="hidden sm:ml-6 sm:block">
               <div className="flex space-x-4">

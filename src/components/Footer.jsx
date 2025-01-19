@@ -1,6 +1,9 @@
 // import footerImg from "../assets/images/logo9.png"
 // import footerImg from '../assets/images/logo9.png';
 
+import footerImage from "../assets/logo1.webp";
+
+
 // navigation
 const navigation1 = [
   { name: "Home", href: "#", current: false },
@@ -16,6 +19,8 @@ const navigation2 = [
   { name: "Signup", href: "#", current: false },
   { name: "LogOut", href: "#", current: false },
 ];
+
+
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -108,10 +113,10 @@ export default function Footer() {
           <div className="text-center">
             <div className="space-y-2">
               {
-                // <img
-                //   src="https://images.unsplash.com/photo-1586221001234-3b1e7c8a8c0d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=400"
-                //   alt="Footer"
-                // />
+                <img
+                  src={footerImage}
+                  alt="Footer"
+                />
               }
             </div>
           </div>
